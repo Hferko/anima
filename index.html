@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemek mozgatása</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            background-color: #ffcc99;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Lucida Sans', sans-serif;
+        }
+
+        select {
+            padding: 4px;
+            font-weight: bold;
+            color: navy;
+            margin-top: 10px;
+        }
+
+        #kek {
+            background-color: blue;
+            width: 5vw;
+            height: 5vw;
+        }
+
+        #piros {
+            background-color: red;
+            width: 3vw;
+            height: 3vw;
+        }
+
+        #zold {
+            background-color: lime;
+            width: 4vw;
+            height: 4vw;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <select id="kocka">
+            <option value="" selected>VÁLASSZA KI MELYIK ELEMET MOZGASSUK?</option>
+            <option value="kek">KÉK</option>
+            <option value="piros">PIROS</option>
+            <option value="zold">ZÖLD</option>
+        </select>
+
+        <div id="figyelem"></div>
+
+        <div id="kek"></div>
+        <br>
+        <div id="piros"></div>
+        <br>
+        <div id="zold"></div>
+
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
